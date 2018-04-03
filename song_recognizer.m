@@ -36,7 +36,7 @@ xlabel('Samples')
 ylabel('Frequency')
 title('Frequency Plot of Audio Record')
 
-% process the record
+% Recongnition for the record
 load HMM.mat
 seq= [];
 seq = featureextractor(filename);
