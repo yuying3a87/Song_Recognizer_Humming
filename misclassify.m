@@ -1,4 +1,4 @@
-% Calculate the misclassification matrix
+%Calculate the misclassification matrix
 function mis_mat = misclassify(y,CLASS,test_data)
 mis_mat = zeros(CLASS);
 temp = 0;
