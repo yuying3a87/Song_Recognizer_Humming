@@ -18,8 +18,7 @@ for i=1:L   % get all the ratio between semitones
     if rD(i)==20&&j>1
              frD(i)=A(i)/pitch(j-1);
     else 
-            frD(i)=A(i)/pitch(1);
-     
+            frD(i)=A(i)/pitch(1);     
         end
              
      if i~=L&&rD(i)~=20&&rD(i+1)==20
